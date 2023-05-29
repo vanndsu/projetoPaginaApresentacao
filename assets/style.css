@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    flex-direction: row;
+    display: flex;
+    width: 1200px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_header{
+    font-size: 30px;
+}
+.lista_menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+.lista_menu li{
+    margin: 5px;
+}
+.lista_menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+.active{
+    font-weight: bold;
+}
+.lista_menu li:hover{
+    font-weight: bold;
+}
+
+/*section main*/
+
+#section_main{
+    display: flex;
+    justify-content: center; 
+    background: linear-gradient(to bottom, rgb(14, 190, 221), rgb(0, 102, 255));
+    height: 350px;
+    flex-direction: row;
+}
+
+.container_main{
+   display: flex;
+   justify-content: space-between;
+   width: 1200px;
+   align-items: center;
+}
+.legenda_lista_main{
+    font-size: 25px;
+    color: white;
+}
+.lista_inf{
+    color: rgb(221, 221, 221);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ul_inf_main{
+    list-style-type: none;
+    padding: 0px;
+}
+.ul_inf_main li:before{
+    
+        content: "✔"; /* Pode ser qualquer outro símbolo ou texto desejado */
+        color: rgb(255, 255, 255); /* Cor do marcador */
+        font-weight: bold; /* Peso da fonte do marcador */
+        margin-right: 5px; /* Espaçamento entre o marcador e o texto do item */
+        font-size: 25px;
+        line-height: 35px;
+
+}
+
+/*banner download*/
+
+.banner_download{
+    height: 290px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    border-bottom: 10px solid orange;
+    
+}
+.legenda_banner{
+    height: 70px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    
+}
+.conteudo_banner{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
